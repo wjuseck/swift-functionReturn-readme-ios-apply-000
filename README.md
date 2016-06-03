@@ -38,7 +38,7 @@ So far, you've spent several lessons (and a couple of labs) learning how to crea
 
 While it may look like functions are simply self-contained blocks of code that can print strings, they can actually do a lot more than that. They can also _return_ a new value.
 
-Imagine you want to write a function that can take the name of a friend, and tell you that friend's age. To keep this simple, we'll imagine that all your friends are 29 (since you should only have you friends you can trust, and you shouldn't trust anyone over 30). How would you write that sort of function?
+Imagine you want to write a function that can take the name of a friend, and tell you that friend's age. To keep this simple, we'll imagine that all your friends are 29 (since you should only have friends you can trust, and you shouldn't trust anyone over 30). How would you write that sort of function?
 
 Think back to when you wrote a function that took an argument. Let's review that by first writing a `printAge` function that prints "&lt;friend&gt; is 29" to the console. Add this to a new playground file:
 
