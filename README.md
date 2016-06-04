@@ -96,6 +96,10 @@ You'll see this error in your playground, which tells you that your function doe
 
 ![Function does not return a value](.images/error.png)
 
+### What About `print()`?
+
+You may have noticed by now that you never use the return value of the `print()` function. That's because `print()` does not have a return value. It is called solely to print a string to the console, so its return value is irrelevant. `print()` never returns anything useful.
+
 ## Using a Function's Return Value
 
 How do you actually _use_ a function's return value?
