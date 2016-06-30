@@ -1,36 +1,15 @@
 # Functions: Returning Values
 
-## Learning Objectives - The student should be able to...
+![Stephen](http://i.imgur.com/1fx5aqz.jpg?1)
+
+> One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away. -[Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking)
+
+## Learning Objectives
 
 * Explain that a function is a **self-contained** chunk of code that performs a **specific** task.
 * Explain how to properly read a function from left to right (`func` keyword, name of function, its arguments surrounded in parentheses, followed by `->` and the type that is being returned).
 * Explain the difference between a function that doesn't return anything compared with a function that does.
 
-```swift
-func ageOfPerson(name: String) -> Int {
-    // assuming everyone is 25 right now
-    return 25
-}
-
-// ..vs..
-
-func sayHelloTo(name: String) {
-    print("Hi \(name)")
-}
-```
-
-## What the student can do at this point 
-
-* Create functions with one/two arguments.
-
-```swift
-func sayHelloTo(person: String) {
-    print("Hello \(person)")
-}
-```
-* Create variables and constants
-* Use the `print` function
-* Know of the types `String` and `Int`
 
 # Returning Values From Functions
 
