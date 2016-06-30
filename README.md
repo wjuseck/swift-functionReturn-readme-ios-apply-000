@@ -73,7 +73,7 @@ func badGetAge(name: String) -> Int {
 
 You'll see this error in your playground, which tells you that your function does not return a value, even though your promised Swift that it would:
 
-![Function does not return a value](.images/error.png)
+![Function does not return a value](http://i.imgur.com/wec87HM.png)
 
 ### What About `print()`?
 
@@ -105,7 +105,7 @@ Take a look at that second line again. You made a function call, `getAge(friend)
 
 Your playground's sidebar confirms that both variables have been assigned values:
 
-![`friendAge` is 29](.images/sidebar.png)
+![`friendAge` is 29](http://i.imgur.com/NuOwfB5.png)
 
 `friendAge` is now assigned the value `29`. You can then pass that to `happyBirthday` to have your birthday greeting printed to the console. Try this out in your playground:
 
