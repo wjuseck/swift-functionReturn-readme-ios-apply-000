@@ -35,7 +35,7 @@ Why would you want such a function? When writing Swift code, you will often need
 
 ```swift
 func happyBirthday(age: Int) {
-    println("Happy birthday #\(age)!")
+    print("Happy birthday #\(age)!")
 }
 ```
 
