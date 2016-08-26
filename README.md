@@ -4,16 +4,22 @@
 
 > One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away. -[Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking)
 
+## Overview
+
+In this lesson, we'll cover returning values from functions. 
+
 ## Learning Objectives
 
-* Explain that a function is a **self-contained** chunk of code that performs a **specific** task.
-* Explain how to properly read a function from left to right (`func` keyword, name of function, its arguments surrounded in parentheses, followed by `->` and the type that is being returned).
-* Explain the difference between a function that doesn't return anything compared with a function that does.
+* Explain that a function is a **self-contained** chunk of code that performs a **specific** task and can return a new value
+* Read a function from left to right and explain the syntax
+* Explain the difference between a function that doesn't return anything compared with a function that does
+* Explain that `print()` doens't have a return value
+* Store a function's return variable in a variable 
 
 
 # Returning Values From Functions
 
-So far, you've spent several lessons (and a couple of labs) learning how to create and call your own functions. You've seen that you can create a function that takes zero or more arguments and print a string (using Swift's `print` function) that interpolates those arguments.
+So far, you've spent several lessons learning how to create and call your own functions. You've seen that you can create a function that takes zero or more arguments and print a string (using Swift's `print` function) that interpolates those arguments.
 
 While it may look like functions are simply self-contained blocks of code that can print strings, they can actually do a lot more than that. They can also _return_ a new value.
 
@@ -148,6 +154,6 @@ let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
 ```
 
-Create some more functions that return values in your playground. Get comfortable with this concept—it'll become increasingly important as you learn more about Swift!
+While this is a Reading, fork and clone the repository from Github to access the playground file in it. Create some more functions that return values in your playground. Get comfortable with this concept—it'll become increasingly important as you learn more about Swift!
 
 <a href='https://learn.co/lessons/FunctionReturn' data-visibility='hidden'>View this lesson on Learn.co</a>
