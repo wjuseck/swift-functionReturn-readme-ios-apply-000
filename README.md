@@ -102,21 +102,19 @@ When declaring a constant or variable, though, you can assign to them the return
 
 ```swift
 let friend = "Emily"
-var friendAge = getAge(friend)
+var friendAge = getAge(name: friend)
 ```
 
 Go ahead and add that to your playground. What did you do? First you declared a constant called `friend` that was set to the `String` "Emily". Then you declared a variable called `friendAge`. Unlike other variables you have declared, though, this variable is assigned the value returned when you call `getAge(friend)`.
 
-Take a look at that second line again. You made a function call, `getAge(friend)`. Calling a function should be second nature to you now. This time, however, `getAge()` returns a value. You assign that value to `friendAge`.
+Take a look at that second line again. You made a function call, `getAge(name: friend)`. Calling a function should be second nature to you now. This time, however, `getAge(name:)` returns a value. You assign that value to `friendAge`.
 
-Your playground's sidebar confirms that both variables have been assigned values:
 
-![`friendAge` is 29](http://i.imgur.com/NuOwfB5.png)
 
 `friendAge` is now assigned the value `29`. You can then pass that to `happyBirthday` to have your birthday greeting printed to the console. Try this out in your playground:
 
 ```swift
-happyBirthday(friendAge)
+happyBirthday(age: friendAge)
 ```
 
 You should see "Happy birthday #29!" in the console.
@@ -131,7 +129,7 @@ func birthdayGreeting(age: Int) -> String {
 }
 ```
 
-Trying calling `birthdayGreeting(30)` and see what happens!
+Trying calling `birthdayGreeting(age: 30)` and see what happens!
 
 ## Functions Can Do Many Things
 
@@ -151,7 +149,7 @@ You can call it to get your friend's name. You'll get the value `29` back from `
 
 ```swift
 let friend2 = "Pete"
-var friend2Age = getAgeAndCongratulate(friend2)
+var friend2Age = getAgeAndCongratulate(name: friend2)
 ```
 
 While this is a Reading, fork and clone the repository from Github to access the playground file in it. Create some more functions that return values in your playground. Get comfortable with this concept—it'll become increasingly important as you learn more about Swift!
