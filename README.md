@@ -13,7 +13,7 @@ In this lesson, we'll cover returning values from functions.
 * Explain that a function is a **self-contained** chunk of code that performs a **specific** task and can return a new value
 * Read a function from left to right and explain the syntax
 * Explain the difference between a function that doesn't return anything compared with a function that does
-* Explain that `print()` doens't have a return value
+* Explain that `print()` doesn't have a return value
 * Store a function's return variable in a variable 
 
 
@@ -45,7 +45,7 @@ func happyBirthday(age: Int) {
 }
 ```
 
-You want to call that function with your friend's age to wish them a happy birthday. Unfortunately, `printAge` only prints your friend's age to the console. How you can you instead wish them a happy birthday?
+You want to call that function with your friend's age to wish them a happy birthday. Unfortunately, `printAge` only prints your friend's age to the console. How can you instead wish them a happy birthday?
 
 The answer is simple: Instead of `printAge`, you can write a function, `getAge`, which returns your friend's age, and then pass that returned value to `happyBirthday`.
 
@@ -77,7 +77,7 @@ func badGetAge(name: String) -> Int {
 }
 ```
 
-You'll see this error in your playground, which tells you that your function does not return a value, even though your promised Swift that it would:
+You'll see this error in your playground, which tells you that your function does not return a value, even though you promised Swift that it would:
 
 ![Function does not return a value](http://i.imgur.com/wec87HM.png)
 
@@ -135,7 +135,7 @@ Trying calling `birthdayGreeting(age: 30)` and see what happens!
 
 At this point, you may be asking, "Okay, great—so I can write a function that can print a string _or_ return a value, right?" In fact, your functions can do both. They can do many things. For example, they can print a string _and_ return a value.
 
-A function's body is just a set of steps to accomplish some work, so it's pretty easy to both print and a string and return a value. You can probably already guess what that looks like. In case you need help, here's a hint (that you can try out in your playground), a function that takes in a friend's name and prints a birthday greeting _and_ returns your friend's age (remember, all your friends are 29):
+A function's body is just a set of steps to accomplish some work, so it's pretty easy to both print a string and return a value. You can probably already guess what that looks like. In case you need help, here's a hint (that you can try out in your playground), a function that takes in a friend's name and prints a birthday greeting _and_ returns your friend's age (remember, all your friends are 29):
 
 ```swift
 func getAgeAndCongratulate(name: String) -> Int {
@@ -155,3 +155,5 @@ var friend2Age = getAgeAndCongratulate(name: friend2)
 While this is a Reading, fork and clone the repository from Github to access the playground file in it. Create some more functions that return values in your playground. Get comfortable with this concept—it'll become increasingly important as you learn more about Swift!
 
 <a href='https://learn.co/lessons/FunctionReturn' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-functionReturn-readme'>Functions and Return Values</a> on Learn.co and start learning to code for free.</p>
