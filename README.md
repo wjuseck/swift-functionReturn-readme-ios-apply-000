@@ -16,6 +16,10 @@ In this lesson, we'll cover returning values from functions.
 * Explain that `print()` doesn't have a return value
 * Store a function's return variable in a variable 
 
+## Functions as Types Video
+
+[![](http://img.youtube.com/vi/AbGul81_X4s/0.jpg)](https://www.youtube.com/watch?v=AbGul81_X4s "Functions as Types")
+
 
 # Returning Values From Functions
 
